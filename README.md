@@ -2,7 +2,11 @@
 
 Basic logger for Express.
 
-Usage:
+## Installation
+
+`npm install express-light-logger`
+
+## Example
 
 ```javascript
 var express = require('express');
