@@ -1,6 +1,6 @@
 {
   "name": "express-light-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Express middleware which logs requests to stdout",
   "main": "index.js",
   "scripts": {

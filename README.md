@@ -8,7 +8,7 @@ Usage:
 var express = require('express');
 var app = express();
 
-var logger = require('light-logger');
+var logger = require('express-light-logger');
 
 app.use(logger());
 
