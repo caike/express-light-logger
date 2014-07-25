@@ -1,6 +1,6 @@
 {
   "name": "express-light-logger",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Express middleware which logs requests to stdout",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/caike/Express-Light-Logger"
+    "url": "https://github.com/caike/express-light-logger"
   },
   "keywords": [
     "node",
@@ -19,7 +19,7 @@
   "author": "Carlos Souza",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/caike/Express-Light-Logger/issues"
+    "url": "https://github.com/caike/express-light-logger/issues"
   },
-  "homepage": "https://github.com/caike/Express-Light-Logger"
+  "homepage": "https://github.com/caike/express-light-logger"
 }
