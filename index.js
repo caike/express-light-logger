@@ -10,7 +10,11 @@ module.exports = function() {
       var diff = process.hrtime(start);
       var duration = diff[0] * 1e3 + diff[1] * 1e-6
 
-      stream.write('\nResponse sent in ' + duration.toFixed(3) + ' milliseconds \n');
+      var method = req.method;
+      var url = req.url;
+
+      stream.write('\nRequest ' + method  + ' to "' + url + '"\nprocessed in ' +
+                   duration.toFixed(3) + ' milliseconds \n');
     });
 
     next();
