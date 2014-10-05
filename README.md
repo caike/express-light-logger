@@ -1,6 +1,6 @@
 # Express Light Logger
 
-Basic logger for Express.
+Basic logger for Express heavily inspired by <https://github.com/expressjs/morgan>
 
 ## Installation
 
@@ -33,3 +33,5 @@ Prints:
 > Request started
 
 > Response sent in 5002.816 milliseconds
+
+
